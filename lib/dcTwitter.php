@@ -68,7 +68,7 @@ class Twitter {
 		
 		
 		if($conversation['error'] == true){
-			return $tweets = array('you done goofed');
+			return $tweets = array('error fetching tweets');
 		}
 		else{
 			$tweets = array();
