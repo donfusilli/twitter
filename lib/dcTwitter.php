@@ -26,6 +26,7 @@ class Twitter {
 	}
 	 
 	// returns an array of Tweet id's matching the given emotion
+	// TODO: check for irregular tweet id's
 	public function getTweetIds($emotion = NULL, $count = 100){
 	
 		$tweetIds = array();
